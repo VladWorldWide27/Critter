@@ -1,0 +1,16 @@
+/usr/bin/ld: computation.o: in function `gauss_rand.part.0':
+computation.c:(.text+0x552): undefined reference to `log'
+/usr/bin/ld: computation.c:(.text+0x58e): undefined reference to `sincos'
+/usr/bin/ld: computation.c:(.text+0x5c5): undefined reference to `sqrt'
+/usr/bin/ld: computation.o: in function `comp_analyze':
+computation.c:(.text+0x9c8): undefined reference to `exp'
+/usr/bin/ld: computation.c:(.text+0xa1d): undefined reference to `exp'
+/usr/bin/ld: computation.c:(.text+0xd0c): undefined reference to `log'
+/usr/bin/ld: computation.c:(.text+0x1293): undefined reference to `sqrt'
+/usr/bin/ld: computation.c:(.text+0x12be): undefined reference to `sqrt'
+/usr/bin/ld: computation.c:(.text+0x12ed): undefined reference to `sqrt'
+/usr/bin/ld: io.o: in function `io_source_sim':
+io.c:(.text+0x48e): undefined reference to `sin'
+/usr/bin/ld: mem.o: in function `mem_build':
+mem.c:(.text+0x469): undefined reference to `sqrt'
+collect2: error: ld returned 1 exit status
